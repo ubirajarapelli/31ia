@@ -4,34 +4,6 @@ nav{
 	height: 65px; /* Altura */
 	color: rgb(255,255,255); /* Cor do texto */
 }
-.logo{
-	display: inline-block; /* Monta em linha os elementos */
-	float: left;
-}
-.centro{
-	width: 960px; /* Largura */
-	margin-top: 0; /* margem superior */ 
-	margin-left: auto; /* margem esquerda */
-	margin-bottom: 0; /* margem  inferior */
-	margin-right: auto; /* margem  direita */
-}
-.menu{
-	/*display: inline-block;*/
-	text-align: right; /* Alinhamento do texto a direita */
-}
-.menu-item{
-	display: inline; /* Mostra os elementos em linha */
-}
-
-.menu-item a{
-	color: rgb(255,255,255);
-	text-decoration: none; /* Retira o Sublinhado */
-}
-
-.menu-item a:hover{
-/* RGBA cores R=Red, G=Greem, B=Blue, A = Alpha(Transparencia) */
-	background: rgba(255,255,255,0.3);
-}
 
 header{
 	height: 300px;
@@ -49,14 +21,12 @@ section{
 	display: inline-block;
 	margin-left: 10px; /* Margem a Esquerda */
 	margin-right: 10px; /* Margem a Direita */
-	float: left; /* Elemento flutuar a esquerda */
 }
 aside{
 	width: 300px;
 	display: inline-block;
 	margin-left: 10px; /* Margem a Esquerda */
 	margin-right: 10px; /* Margem a Direita */
-	/*float: left;  Elemento flutuar a direita */
 }
 img{
 	max-width: 100%; /* Largura Máxima */
@@ -64,10 +34,47 @@ img{
 footer{
 	height: 100px;
 	background: rgb(70,106,127);
-	clear: both;
+}
+.centro{
+	width: 960px; /* Largura */
+	margin-top: 0; /* margem superior */ 
+	margin-left: auto; /* margem esquerda */
+	margin-bottom: 0; /* margem  inferior */
+	margin-right: auto; /* margem  direita */
+}
+.menu{
+	/*display: inline-block;*/
+	text-align: right; /* Alinhamento do texto a direita */
+	padding-top: 10px;
+}
+.menu-item{
+	display: inline; /* Mostra os elementos em linha */
+	font-size: 18px;
+	font-weight: lighter;
+	text-align: right;
+	/*text-transform: uppercase;  Transforma o texto em Maiusculas */
 }
 
+.menu-item a{
+	color: rgb(255,255,255);
+	text-decoration: none; /* Retira o Sublinhado */
+}
 
+.logo{
+	display: inline-block;
+	font-weight: lighter; /* Deixa a fonte "light" */
+	font-size: 34px;
+	float: left;
+}
+.title{
+	display: block;
+	font-weight: lighter;
+	font-size: 51px;
+	line-height: 1.2em; /* Distancia entre linhas */
+	/* Sombra no texto - Horizontal, Vertical, Esfumaçado, Cor */
+	text-shadow: 1px 1px 0px rgb(70,106,127);
+	padding: 50px 0 0 0;
+}
 
 
 
